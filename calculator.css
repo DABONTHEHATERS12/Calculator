@@ -13,9 +13,8 @@
 }
 
 /* Display */
-
 .display {
-	background-color:#000000;
+	background-color:#BFC4CE;
 	width: 220px;
 	position: relative;
 	left: 15px;
@@ -44,6 +43,41 @@
 	width: 40px;
 	height: 30px;
 	border: none;
-	
+	border-radius: 8px;
+	margin-right: 17px;
+	cursor: pointer;
+	border-top: 2px solid transparent;
+}
+	.button.function {
+		color: white;	
+		background-color: #C64F81;
+		border-botton: black 2px solid;
+		border-top: 2px solid transparent;
+	}
+		button.operatior {
+			color: white;
+			background-color: #4D5966;
+			border-bottom: black 2px solid;
+			border-top: 2px #6F6F6F solid
+		}
+.button.number {
+	color: white;
+	background-color: #7091AB;
+	border-bottom: black 2px solid;
+	border-top: 2px #6F6F6F;
+}
 
+/* Simulate Button Press */
+.function:active {
+	border-top: black 2px #6F6F6F solid;
+	border-bottom: 2px #6F6F6F solid;
+}
 
+.operator:active {
+	border-top: black 2px solid;
+	border-bottom: 2px #303030;
+}
+.number:active	{
+	border-top: black 2px solid;
+	border-bottom: 2px #6F6F6F solid;
+}
